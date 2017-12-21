@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ICT13570045.ICT13570045PageA">
+
+    <StackLayout
+        Orientation="Vertical"
+        BackgroundColor="Aqua">
+
+        <Label
+            Text="Hello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello World"
+            BackgroundColor="Yellow"
+            HorizontalOptions="Fill"
+            VerticalOptions="Start"
+            HorizontalTextAlignment="Center"
+            WidthRequest="200"
+            HeightRequest="100"
+            VerticalTextAlignment="Center"
+            FontSize="20"
+            TextColor="Red"
+            LineBreakMode="MiddleTruncation"
+            x:Name="firstNameLabel"/>
+        <Entry
+            Placeholder="Input Text Here"
+            x:Name="firstNameEntry"
+            Keyboard="Text"
+            IsEnabled="True"
+            IsVisible="True"/>
+        <Button
+            x:Name="okButton"
+            Text="OK"
+            BackgroundColor="Silver"
+            />
+
+    </StackLayout>
+
+
+</ContentPage>
